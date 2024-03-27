@@ -2,7 +2,7 @@ import itertools
 import pandas as pd
 
 
-repeat="N" # Change to "N" if you don't want colours to repeat
+repeat="N" # Change to "N" if you don't want colours to repeat, and "Y" if you want to allow for repetitions
 
 colour_list=[
     'yellow',

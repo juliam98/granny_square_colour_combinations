@@ -1,0 +1,7 @@
+.DS_Store
+Icon?
+output/.DS_Store
+output/no_repeating_colours/*
+output/repeating_colours/*
+output/no_repeating_colours/.DS_Store
+output/repeating_colours/.DS_Store
