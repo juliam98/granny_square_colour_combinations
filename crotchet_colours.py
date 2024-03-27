@@ -2,7 +2,7 @@ import itertools
 import pandas as pd
 
 
-repeat="Y" # Change to "N" if you don't want colours to repeat
+repeat="N" # Change to "N" if you don't want colours to repeat
 
 colour_list=[
     'yellow',
@@ -26,11 +26,11 @@ colours_RGB=[
     (0.33333, 0.27059, 0.57647) # purple
 ]
 
-if repeat==True:
+if repeat=="Y":
     output_folder='output/repeating_colours/'
     # Generate all possible four-element combinations of the list using itertools.combinations_with_replacement with repeating colours
     combinations = pd.DataFrame(data=itertools.combinations_with_replacement(colours_RGB, 4))
-elif repeat==False:
+elif repeat=="N":
     # Generate all possible four-element combinations of the list using itertools.combinations with no repeating colours
     combinations = pd.DataFrame(data=itertools.combinations(colours_RGB, 4))
     output_folder='output/no_repeating_colours/'
