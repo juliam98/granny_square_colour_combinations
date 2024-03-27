@@ -13,5 +13,5 @@ By default the script will generate sqares with non-rerpeating colours, but if y
 The output are images representing the possible colour combinations for your granny squares.
 
 <p align="center">
-  <img src="https://github.com/juliam98/granny_square_colour_combinations/assets/93785710/de3f9a5c-5b16-4d54-91a9-93f762f26189"  width="400" height="400">
+  <img src="https://github.com/juliam98/granny_square_colour_combinations/assets/93785710/f4f806f1-2a63-418a-86ae-3615a1391592"  width="400" height="400">
 </p>
